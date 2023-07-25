@@ -4,7 +4,7 @@
  * @s: the format string
  * Return: the number
  */
-int (*get_spec(char *s))(va_list p, paramter *param)
+int (*get_spec(char *s))(va_list, paramter *)
 {
 	spec specifiers[] = {
 		{"c", prints_c},
